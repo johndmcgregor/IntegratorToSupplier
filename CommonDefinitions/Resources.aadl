@@ -1,0 +1,22 @@
+-- Copyright 2016 Carnegie Mellon University. See Notice.txt
+-- Distribution Statement A: Approved for Public Release; Distribution is Unlimited.
+package Resources
+public
+-- abstract types to represent various types of resources
+-- used on abstract features (once the Meta model supports classifiers
+	abstract ElectricalPower
+	end ElectricalPower;
+
+	abstract FuelFlow
+	end FuelFlow;
+
+	abstract HydraulicPressure
+	end HydraulicPressure;
+
+	abstract AirFlow
+	end AirFlow;
+
+	abstract SignalFlow
+	end SignalFlow;
+
+end Resources;

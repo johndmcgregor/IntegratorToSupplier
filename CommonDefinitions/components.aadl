@@ -1,0 +1,7 @@
+-- Copyright 2016 Carnegie Mellon University. See Notice.txt
+-- Distribution Statement A: Approved for Public Release; Distribution is Unlimited.
+package components
+public
+  data arinc429_data
+  end arinc429_data;
+end components;

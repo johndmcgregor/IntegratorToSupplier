@@ -1,0 +1,15 @@
+-- Copyright 2016 Carnegie Mellon University. See Notice.txt
+-- Distribution Statement A: Approved for Public Release; Distribution is Unlimited.
+-- A busses package...
+package Integrator::FGS::Busses::ARINC429
+public
+with SEI;
+  bus AR429
+    properties
+      SEI::BandWidthCapacity => 100.0 KBytesps;
+        SEI::WeightLimit => 1.5 kg;
+  end AR429;
+  
+  bus implementation AR429.impl
+  end AR429.impl;
+end Integrator::FGS::Busses::ARINC429;
